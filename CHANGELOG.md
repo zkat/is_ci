@@ -1,5 +1,12 @@
 # `is_ci` Release Changelog
 
+<a name="1.1.1"></a>
+## 1.1.1 (2021-09-22)
+
+### Bug Fixes
+
+* **now:** fix typo in bitbucket check ([d89ed22f](https://github.com/zkat/is_ci/commit/d89ed22fa489ef4fb8fda5eaf54e26610900b4e1))
+
 <a name="1.1.0"></a>
 ## 1.1.0 (2021-09-22)
 
