@@ -37,7 +37,7 @@ pub fn uncached() -> bool {
         || check("GITLAB_DEPLOYMENT")
         || check("NOW_GITHUB_DEPLOYMENT")
         || check("NOW_BUILDER")
-        || check("BITBUCKET_DEPLOYMENY")
+        || check("BITBUCKET_DEPLOYMENT")
         || check("GERRIT_PROJECT")
         || check("SYSTEM_TEAMFOUNDATIONCOLLECTIONURI")
         || check("BITRISE_IO")
