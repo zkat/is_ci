@@ -1,0 +1,20 @@
+[package]
+name = "is_ci"
+version = "0.0.0"
+edition = "2018"
+authors = ["Kat Marchán <kzm@zkat.tech>"]
+description = "Super lightweight CI environment checker. Just tells you if you're in CI or not without much fuss."
+repository = "https://github.com/zkat/miette"
+documentation = "https://docs.rs/miette"
+license = "Apache-2.0"
+keywords = ["ci", "build"]
+categories = [
+  "development-tools",
+  "development-tools::build-utils",
+  "development-tools::testing",
+]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
