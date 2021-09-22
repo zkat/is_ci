@@ -12,8 +12,11 @@ in and you can handle a heavier dependency, please consider using
 ## Example
 
 ```rust
-// This is it. This is the entire API.
-let am_i_in_ci_right_now = is_ci::is_ci();
+// You can call this repeatedly if you want to get the same result, cached.
+let am_i_in_ci_right_now = is_ci::cached();
+
+// If you expect your environment to change between calls, use this instead:
+let checking_again_just_in_case = is_ci::uncached();
 ```
 
 ## License
