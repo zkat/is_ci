@@ -1,5 +1,12 @@
 # `is_ci` Release Changelog
 
+<a name="1.1.0"></a>
+## 1.1.0 (2021-09-22)
+
+### Features
+
+* **api:** Add cache/uncached APIs and deprecate is_ci ([adc5ec15](https://github.com/zkat/is_ci/commit/adc5ec152503f9ef6157f487fd7fc4ea251b4ff6))
+
 <a name="1.0.0"></a>
 ## 1.0.0 (2021-09-22)
 
