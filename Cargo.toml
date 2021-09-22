@@ -1,6 +1,6 @@
 [package]
 name = "is_ci"
-version = "0.0.0"
+version = "1.0.0"
 edition = "2018"
 authors = ["Kat Marchán <kzm@zkat.tech>"]
 description = "Super lightweight CI environment checker. Just tells you if you're in CI or not without much fuss."
