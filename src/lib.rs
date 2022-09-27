@@ -26,6 +26,7 @@ pub fn uncached() -> bool {
     let ci_var = std::env::var("CI");
     ci_var == Ok("true".into())
         || ci_var == Ok("1".into())
+        || ci_var == Ok("woodpecker".into())
         || check("CI_NAME")
         || check("GITHUB_ACTION")
         || check("GITLAB_CI")
