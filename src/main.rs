@@ -1,8 +1,6 @@
 use is_ci::uncached;
 
 pub fn main() {
-    if let is_ci = uncached() {
-        std::process::exit(0);
-    }
-    std::process::exit(1);
+    let code = if uncached() { 0 } else { 1 };
+    std::process::exit(code);
 }
