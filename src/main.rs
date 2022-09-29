@@ -2,5 +2,8 @@ use is_ci::uncached;
 
 pub fn main() {
     let is_ci = uncached();
-    println!("{}", is_ci);
+    if is_ci {
+        std::process::exit(0);
+    }
+    std::process::exit(1);
 }
