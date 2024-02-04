@@ -1,5 +1,13 @@
 # `is_ci` Release Changelog
 
+<a name="1.2.0"></a>
+## 1.2.0 (2024-02-04)
+
+### Features
+
+* **ci:** Add WoodpeckerCI support (#1) ([7eaceabd](https://github.com/zkat/is_ci/commit/7eaceabd20b443c7f72b27c354a9965f79fd1dcc))
+* **bin:** add main.rs to run it as a standalone bin (#2) ([bc4fda76](https://github.com/zkat/is_ci/commit/bc4fda761a9810a0e967d1470772fedd78d79360))
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2021-09-22)
 
